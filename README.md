@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+<h2 align="center">Seja bem vindo ao meu portfolio</h2>
+<p align="center">Estudante de Desenvolvimento Web na Trybe</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### O que a Trybe é ?
 
-## Available Scripts
+A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional de quem estuda com eles. Com o  **Modelo de Sucesso Compartilhado (MSC)** ofertado pela **Trybe Fintech** , instituição financeira autorizada a operar pelo Banco Central do Brasil, a pessoa estudante tem a opção de pagar apenas quando já estiver trabalhando...
+<a href="https://ajuda.betrybe.com/hc/pt-br/articles/360056299454-O-que-a-Trybe-%C3%A9-">Leia mais
 
-In the project directory, you can run:
+### O que é um portfolio ?
 
-### `npm start`
+O portfólio é basicamente uma lista dos melhores trabalhos de um profissional, empresa ou estudante. O **portfólio** é uma coleção de todo o trabalho em andamento na organização relacionado com o alcance dos objetivos do negócio. No dicionário de língua portuguesa, o portfólio é definido e significa “um dossiê ou documento com o registo individual de habilitações ou de experiências”.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ #### É com muito prazer que vos apresento meu portfolio web, é um projetinho focado especialmente a mim mostrando todo meu processo de desenvolvimento durante essa minha jornada de desenvolvedor, estou em fase de aprendizagem e espero que gostem :).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Contato:
+- <a href="https://www.linkedin.com/in/felipe-nevess ">Linkedin</a>
+- <a href="https://api.whatsapp.com/send?phone=5586994580624&text=Ol%C3%A1%20Dev!!%20vamos%20conversar%3F">Whatsapp</a>
+- <a href="https://github.com/FelipeNevess">GitHub</a>
+- fneves.dev@gmail.com
 
-### `npm test`
+##### Tecnologias:
+- React
+- HTML
+- CSS
+- JavaScript
+- React Router Dom
+  
+##### Ferramentas
+- Visual Studio Code
+- Whimsical
+- Figma
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Projeto em fase de desenvolvimento</p>
+<p align="center">Obrigado!</p>
