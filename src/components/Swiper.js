@@ -3,8 +3,14 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import SwiperCore, { Pagination } from 'swiper';
+// Component
+import Header from '../components/Header';
 
-import Home from '../components/Header';
+// Pages
+import Home from '../pages/Home';
+import Portfolio from '../pages/Portfolio';
+import Contacts from '../pages/Contacts';
+import About from '../pages/About';
 
 // Swiper css
 import "swiper/css";
@@ -17,19 +23,15 @@ SwiperCore.use([Pagination]);
 function SwiperApp() {
   return (
     <div id="swiper-app">
+      <Header />
       <Swiper
         pagination={{ "dynamicBullets": true }}
         className="mySwiper"
       >
         <SwiperSlide>{ Home }</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>{ Portfolio }</SwiperSlide>
+        <SwiperSlide>{ Contacts }</SwiperSlide>
+        <SwiperSlide>{ About }</SwiperSlide>
       </Swiper>
     </div>
   )

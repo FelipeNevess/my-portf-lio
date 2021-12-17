@@ -1,5 +1,9 @@
-#swiper-app { height: 100% }
+#swiper-app {
+  height: 100% 
+}
+
 html,
+
 body {
   position: relative;
   height: 100%;
