@@ -28,10 +28,10 @@ function SwiperApp() {
         pagination={{ "dynamicBullets": true }}
         className="mySwiper"
       >
+        <SwiperSlide>{ About }</SwiperSlide>
         <SwiperSlide>{ Home }</SwiperSlide>
         <SwiperSlide>{ Portfolio }</SwiperSlide>
         <SwiperSlide>{ Contacts }</SwiperSlide>
-        <SwiperSlide>{ About }</SwiperSlide>
       </Swiper>
     </div>
   )
