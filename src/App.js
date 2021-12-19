@@ -1,8 +1,12 @@
+import React from 'react';
+
+import SwiperApp from './components/Swiper';
+
 function App() {
   return (
-    <div>
-      <p>Nada</p>
-    </div>
+    <>
+      <SwiperApp />
+    </>
   );
 }
 
