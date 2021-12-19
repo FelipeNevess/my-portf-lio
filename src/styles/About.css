@@ -6,10 +6,10 @@
 
 .container-about {
   width: 90%;
-  height: 87vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   margin-top: 70px;
 }
@@ -24,6 +24,7 @@
 .sidebar-1 h1 {
   font-family: 'Signika Negative', sans-serif;
   font-size: 80px;
+  font-weight: 700;
   color: #695C5C;
 }
 

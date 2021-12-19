@@ -1,0 +1,174 @@
+.section-contacts {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #73AE8B;
+}
+
+.container-contacts {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.container-contacts div h1 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #695C5C;
+}
+
+.block-contact-info-datails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.block-info-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.info-localization {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info-localization h4, .icons-social h4, .block-add-form h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  color: #696969;
+  margin-bottom: 33px;
+}
+
+.info-localization div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.info-localization div p {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 18px;
+  color: #f5f5f5;
+}
+
+.icons-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.icons-social div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-likedin {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  margin-right: 4px;
+}
+
+.icon-insta, .icon-whats {
+  width: 45px;
+  height: 45px;
+  border-radius: 10%;
+}
+
+.icon-email {
+  width: 55px;
+  height: 55px;
+  border-radius: 10%;
+  margin-bottom: 5px;
+}
+
+.block-info-address p {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 12px;
+  color: #f5f5f5;
+}
+
+.block-add-form {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-add-form form {
+  min-width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-add-form form select {
+  appearance: none;
+  background-color: transparent;
+  border-bottom: 2px solid #696969;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 100%;
+  cursor: inherit;
+  color: #242424;
+  line-height: inherit;
+}
+
+.block-add-form form select::-ms-expand {
+  display: none;
+}
+
+.block-add-form form select {
+  outline: none;
+}
+
+.cont-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.block-add-form form input, .block-add-form form textarea {
+  background-color: transparent;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  color: #735151;
+  outline: 0;
+}
+
+.block-add-form form input {
+  border-bottom: 2px solid #696969;
+  margin-bottom: 10px;
+  min-width: 40%;
+  padding: 5px;
+}
+
+.block-add-form form textarea {
+  border: 2px solid #696969;
+  font-size: 12px;
+  padding: 3px;
+  resize: none;
+}
+
+.block-add-form form button {
+  width: 20%;
+  margin-top: 20px;
+  background-color: #848484;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  color: #EAD6D6;
+}
