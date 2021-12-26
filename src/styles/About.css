@@ -1,7 +1,7 @@
 .section-about {
   width: 100%;
   min-height: 100vh;
-  background-color: #C0C2C1;
+  background-color: #c0c2c1;
 }
 
 .container-about {
@@ -22,10 +22,10 @@
 }
 
 .sidebar-1 h1 {
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 80px;
   font-weight: 700;
-  color: #695C5C;
+  color: #695c5c;
 }
 
 .sidebar-1 div {
@@ -34,9 +34,9 @@
 
 .sidebar-1 div p {
   text-align: center;
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 14px;
-  color: #5B524E;
+  color: #5b524e;
 }
 
 .sidebar-2 {
@@ -66,14 +66,14 @@
 }
 
 .info {
-  font-family: 'Sunflower:wght@700', sans-serif;
-  color: #D05F5F;
+  font-family: "Sunflower:wght@700", sans-serif;
+  color: #d05f5f;
   margin-right: 5px;
 }
 
 .info-result {
-  font-family: 'Sunflower:wght@300', sans-serif;
-  color: #3A3838;
+  font-family: "Sunflower:wght@300", sans-serif;
+  color: #3a3838;
 }
 
 .block-skill-info {
@@ -96,24 +96,27 @@
   width: 100%;
 }
 
-.con-c1, .con-c2, .con-c3, .con-c4 {
+.con-c1,
+.con-c2,
+.con-c3,
+.con-c4 {
   font-size: 12px;
 }
 
 .con-c1 {
-  width: 75%;
+  width: 85%;
 }
 
 .con-c2 {
-  width: 80%;
+  width: 73%;
 }
 
 .con-c3 {
-  width: 85%
+  width: 80%;
 }
 
 .con-c4 {
-  width: 50%;
+  width: 55%;
 }
 
 .w3-light-grey {
@@ -121,7 +124,7 @@
 }
 
 .block-skill-info h4 {
-  font-family: 'Sunflower:wght@700&', sans-serif;
+  font-family: "Sunflower:wght@700&", sans-serif;
   font-size: 25px;
   color: #f5f5f5;
   margin-bottom: 10px;
@@ -136,8 +139,51 @@
 }
 
 .block-skill-info .w3-container div h4 {
-  font-family: 'Sunflower:wght@700&', sans-serif;
+  font-family: "Sunflower:wght@700&", sans-serif;
   font-size: 15px;
-  color: #695C5C;
+  color: #695c5c;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  .container-about {
+    height: auto;
+  }
+
+  .sidebar-1 h1 {
+    font-size: 60px;
+  }
+
+  .sidebar-1 div {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .sidebar-2 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .block-contact-info {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .block-skill-info {
+    width: 100%;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 336px) {
+  .info,
+  .info-result {
+    font-size: 14px;
+  }
 }

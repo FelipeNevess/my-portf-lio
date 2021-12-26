@@ -12,11 +12,11 @@ function About() {
           <h1>ABOUT ME</h1>
           <div>
             <p>
-              Meu nome é Felipe tenho 23 anos sou desenvolvedor Junior, estudo atualmente na Trybe e sou recém-formado em Desenvolvimento Front-end, 
+              Meu nome é Felipe tenho 23 anos sou desenvolvedor Junior, estudo atualmente na Trybe e sou recém-formado em Desenvolvimento Front-end,
               utilizando a biblioteca React, aprendi todo o módulo de fundamentos essenciais para o Desenvolvimento Web, como, Unix, Bach, Git,
-              GitHunb, HTML, Css, a linguagem JavaScript - ES6 e teste automatizados com uso do Jest. Ainda estou em processo de aprendizagem na Trybe, 
+              GitHunb, HTML, Css, a linguagem JavaScript - ES6 e teste automatizados com uso do Jest. Ainda estou em processo de aprendizagem na Trybe,
               já começei a dar meus primeiros passos em Desenvolvimento Back-end que é uma coisa totalmente nova para mim. Ou seja aos poucos vou
-              contendo um leque enorme de aprendizagem, tanto de Hard Skills como Soft Skills e ir construindo minha carreira e me tornar 
+              contendo um leque enorme de aprendizagem, tanto de Hard Skills como Soft Skills e ir construindo minha carreira e me tornar
               aquilo que eu sempre sonhei em ser...PROGRAMADOR.
             </p>
           </div>
@@ -47,32 +47,32 @@ function About() {
           </div>
           <div className="block-skill-info">
             <h4>SKILLS</h4>
-            <div class="w3-container">
+            <div className="w3-container">
               <div className="w3-config con-c1">
                 <h4>React</h4>
-                <div class="w3-light-grey">
-                  <div class="w3-container w3-blue w3-center" width="100%">75%</div>
+                <div className="w3-light-grey">
+                  <div className="w3-container w3-blue w3-center" width="100%">75%</div>
                 </div>
               </div>
-              
+
               <div className="w3-config con-c2">
                 <h4>HTML/CSS</h4>
-                <div class="w3-light-grey">
-                  <div class="w3-container w3-red w3-center" width="100%">80%</div>
+                <div className="w3-light-grey">
+                  <div className="w3-container w3-red w3-center" width="100%">80%</div>
                 </div>
               </div>
-              
+
               <div className="w3-config con-c3">
                 <h4>Javascript</h4>
-                <div class="w3-light-grey">
-                  <div class="w3-container w3-yellow w3-center" width="100%">85%</div>
+                <div className="w3-light-grey">
+                  <div className="w3-container w3-yellow w3-center" width="100%">85%</div>
                 </div>
               </div>
-              
+
               <div className="w3-config con-c4">
                 <h4>Node</h4>
-                <div class="w3-light-grey">
-                  <div class="w3-container w3-green w3-center" width="100%">50%</div>
+                <div className="w3-light-grey">
+                  <div className="w3-container w3-green w3-center" width="100%">50%</div>
                 </div>
               </div>
             </div>
