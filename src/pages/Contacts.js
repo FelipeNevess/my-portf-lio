@@ -66,7 +66,8 @@ function Contacts() {
 
           <div className="block-add-form">
             <h4>CONTACT FORM</h4>
-            <form action="" method="get">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+              <input type="hidden" name="accessKey" value="d11c852d-a710-4481-a609-a98d861f9535" />
               <select name="kind-of-conversation" id="kind-of-conversation">
                 <option value="recruiter">Recruiter person</option>
                 <option value="freela">Freela service</option>
@@ -80,8 +81,10 @@ function Contacts() {
                 rows="5"
                 cols="33"
                 maxLength="300"
+                name="message"
               />
-              <button type="button">To send</button>
+              <input type="hidden" name="redirectTo" value="https://example.com/contact/success"></input>
+              <button type="submit">To send</button>
             </form>
           </div>
         </div>
