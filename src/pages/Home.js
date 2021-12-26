@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaMedal } from 'react-icons/fa';
 
 import '../styles/Home.css';
+import perfiltest from '../images/perfil-p.png';
 
 function Home() {
+  const [saveDate, setSeveDate] = useState();
+
+  const date_experience = () => {
+    const now = new Date();
+    const resultDate = now.getFullYear() - 2021;
+
+    setSeveDate(resultDate);
+  }
+
+  useEffect(() => {
+    date_experience();
+  }, []);
+
   return (
     <section className="section-home" id="home">
       <div className="container-home">
@@ -14,12 +28,16 @@ function Home() {
           </div>
           <p>fneves.dev@gmail.com</p>
           <div className="cont-year">
-            <h1>01</h1>
+            <h1>{ saveDate }</h1>
             <div>
               <h4>YEARS</h4>
               <h4>EXPERTENCE</h4>
             </div>
           </div>
+        </div>
+
+        <div className="cont-image-perfil-home">
+          <img src={ perfiltest } alt="felipe_neves_foto1" />
         </div>
 
         <div className="cont-sect-block-two">

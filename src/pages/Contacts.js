@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import '../styles/Contacts.css';
 
@@ -16,7 +16,7 @@ function Contacts() {
   }
 
   return(
-    <section className="section-contacts">
+    <section className="section-contacts" id="contact">
       <div className="container-contacts">
         <div>
           <h1>HOW CAN I HELP?</h1>
@@ -57,7 +57,7 @@ function Contacts() {
                 </a>
                 <MdEmail
                   className="icon-email"
-                  onClick={ () => clipboardCopy() } 
+                  onClick={ () => clipboardCopy() }
                 />
               </div>
             </div>
@@ -79,7 +79,7 @@ function Contacts() {
                 placeholder="what i'm thinking"
                 rows="5"
                 cols="33"
-                maxlength="300"
+                maxLength="300"
               />
               <button type="button">To send</button>
             </form>

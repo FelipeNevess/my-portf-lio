@@ -1,7 +1,7 @@
 .section-contacts {
   width: 100%;
   min-height: 100vh;
-  background-color: #73AE8B;
+  background-color: #73ae8b;
 }
 
 .container-contacts {
@@ -11,10 +11,10 @@
 }
 
 .container-contacts div h1 {
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 80px;
   font-weight: 700;
-  color: #695C5C;
+  color: #695c5c;
 }
 
 .block-contact-info-datails {
@@ -41,8 +41,10 @@
   align-items: flex-start;
 }
 
-.info-localization h4, .icons-social h4, .block-add-form h4 {
-  font-family: 'Fira Sans', sans-serif;
+.info-localization h4,
+.icons-social h4,
+.block-add-form h4 {
+  font-family: "Fira Sans", sans-serif;
   font-size: 22px;
   color: #696969;
   margin-bottom: 33px;
@@ -56,7 +58,7 @@
 }
 
 .info-localization div p {
-  font-family: 'Hind Madurai', sans-serif;
+  font-family: "Hind Madurai", sans-serif;
   font-size: 18px;
   color: #f5f5f5;
 }
@@ -81,7 +83,8 @@
   margin-right: 4px;
 }
 
-.icon-insta, .icon-whats {
+.icon-insta,
+.icon-whats {
   width: 45px;
   height: 45px;
   border-radius: 10%;
@@ -94,8 +97,12 @@
   margin-bottom: 5px;
 }
 
+.icon-email:hover {
+  cursor: pointer;
+}
+
 .block-info-address p {
-  font-family: 'Hind Madurai', sans-serif;
+  font-family: "Hind Madurai", sans-serif;
   font-size: 12px;
   color: #f5f5f5;
 }
@@ -117,7 +124,7 @@
   appearance: none;
   background-color: transparent;
   border-bottom: 2px solid #696969;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 12px;
   padding: 3px;
   margin-bottom: 20px;
@@ -141,9 +148,10 @@
   margin-bottom: 20px;
 }
 
-.block-add-form form input, .block-add-form form textarea {
+.block-add-form form input,
+.block-add-form form textarea {
   background-color: transparent;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 12px;
   color: #735151;
   outline: 0;
@@ -167,8 +175,48 @@
   width: 20%;
   margin-top: 20px;
   background-color: #848484;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 12px;
   padding: 5px;
-  color: #EAD6D6;
+  color: #ead6d6;
+}
+
+.block-add-form form button:hover {
+  cursor: pointer;
+  background-color: rgb(59, 165, 59);
+}
+
+@media (max-width: 836px) {
+  #name {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .block-contact-info-datails {
+    flex-direction: column;
+  }
+
+  .container-contacts div h1 {
+    font-size: 60px;
+  }
+
+  .block-contact-info-datails {
+    justify-content: flex-start;
+  }
+
+  .block-add-form {
+    width: 100%;
+    margin-top: 71px;
+    margin-bottom: 20px;
+  }
+
+  #name {
+    margin-right: 20px;
+  }
+
+  .block-add-form form button {
+    width: 42%;
+    padding: 8px;
+  }
 }

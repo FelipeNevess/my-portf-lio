@@ -1,0 +1,5 @@
+@media (max-width: 928px) {
+  .main-menu {
+    display: none;
+  }
+}
