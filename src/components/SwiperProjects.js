@@ -2,13 +2,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import date from '../services/cards';
+
 import "swiper/css";
 import "swiper/css/effect-cards"
 
 import "../styles/SwiperProjects.css";
-
-import receita from '../icons/receitas.png';
-
 
 import SwiperCore, { EffectCards } from 'swiper';
 
@@ -22,18 +21,27 @@ function SwiperProjects() {
         grabCursor={true}
         className="mySwiper swiper-proj"
       >
-        <SwiperSlide>
-          <div className="card">
-            <img src={ receita } alt="receita" />
-            <h3>Recipe app</h3>
-            <button type="button" className="button-repository">Repository</button>
-            <button type="button" className="button-open">Open</button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
+        {
+          date.map((card, i) => (
+            <SwiperSlide key={ i }>
+              <div className="card">
+                <img src={ card.image } alt={ card.alt } />
+                <h3>{ card.card }</h3>
+                <a href={ card.repository } target="_blank" rel="noreferrer">
+                  <button
+                    type="button"
+                    className="button-repository"
+                  >
+                    Repository
+                  </button>
+                </a>
+                <a href={ card.url } target="_blank" rel="noreferrer">
+                  <button type="button" className="button-open">Open</button>
+                </a>
+              </div>
+            </SwiperSlide>
+          ))
+        }
       </Swiper>
     </div>
   )

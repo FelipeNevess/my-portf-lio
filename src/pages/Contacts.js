@@ -83,7 +83,7 @@ function Contacts() {
                 maxLength="300"
                 name="message"
               />
-              <input type="hidden" name="redirectTo" value="https://example.com/contact/success"></input>
+              <input type="hidden" name="redirectTo" value="https://felipeneves.netlify.app/"></input>
               <button type="submit">To send</button>
             </form>
           </div>

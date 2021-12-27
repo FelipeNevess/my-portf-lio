@@ -53,6 +53,10 @@ header {
   color: #837162;
 }
 
+.main-menu ul li a:hover {
+  border-bottom: 1px solid rgb(184, 67, 52);
+}
+
 .con-number {
   display: flex;
   align-items: center;
@@ -74,11 +78,19 @@ header {
 
 @media (max-width: 928px) {
   .container-header {
-    padding: 15px;
+    padding: 34px;
     width: 100%;
   }
 
   .con-number {
     display: none;
+  }
+
+  .onMenu ul li a {
+    color: #504856;
+  }
+
+  .onMenu ul li a:hover {
+    border-bottom: 1px solid rgb(184, 67, 52);
   }
 }
