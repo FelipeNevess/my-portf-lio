@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../styles/About.css';
-
 import Felipe from '../images/perfil.jpg';
 
 function About() {
