@@ -12,31 +12,40 @@ function Button() {
   }
 
   return (
-    <div className="cont-menu-button" onClick={ hadleClick }>
+    <div className="cont-menu-button">
       <nav className={ menuButton ? 'onMenu' : 'offMenu' }>
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a href="#home" className="exit-menu">HOME</a>
           </li>
 
           <li>
-            <a href="#portfolio">PORTFÓLIO</a>
+            <a href="#portfolio" className="exit-menu">PORTFÓLIO</a>
           </li>
 
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#about" className="exit-menu">ABOUT</a>
           </li>
 
           <li>
-            <a href="#contact">CONTACTS</a>
+            <a href="#contact" className="exit-menu">CONTACTS</a>
           </li>
         </ul>
       </nav>
-      <div>
-        <RiMenu5Fill className="menu-button">
-          <button type="button" />
-        </RiMenu5Fill>
-      </div>
+      {
+        !menuButton ?
+        (
+          <div onClick={ hadleClick }>
+            <RiMenu5Fill className="menu-button">
+              <button type="button" />
+            </RiMenu5Fill>
+          </div>
+        )
+          :
+        <button type="button" className="off" onClick={ hadleClick }>
+          <span>X</span>
+        </button>
+      }
     </div>
   );
 }

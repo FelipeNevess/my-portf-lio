@@ -19,17 +19,13 @@
   height: 30px;
 }
 
-.cont-menu-button:hover {
-  cursor: pointer;
-}
-
 .onMenu {
   margin: 0 auto;
 }
 
 .onMenu ul {
   transition: 1s;
-  background-color: #929c9c;
+  background-color: #92a4bf;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -55,6 +51,22 @@
 
 .offMenu {
   display: none;
+}
+
+.off {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 31px;
+  color: #f1f1f1;
+}
+
+.off {
+  cursor: pointer;
 }
 
 @media (max-width: 928px) {

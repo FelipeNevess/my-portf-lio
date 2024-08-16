@@ -186,6 +186,20 @@
   background-color: rgb(59, 165, 59);
 }
 
+@media (max-width: 500px) {
+  .container-contacts {
+    width: 100%;
+  }
+
+  .cont-inputs {
+    flex-direction: column;
+  }
+
+  .block-add-form form input {
+    width: 100%;
+  }
+}
+
 @media (max-width: 836px) {
   #name {
     margin-right: 20px;

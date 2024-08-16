@@ -59,10 +59,6 @@ body {
   flex-direction: row !important;
 }
 
-.swiper-slide:nth-child(1n) {
-  background-color: rgb(168, 159, 159);
-}
-
 .card {
   width: 200px;
 }
@@ -101,6 +97,10 @@ body {
 .button-open {
   right: 0;
   border-top-left-radius: 12px;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(57 183 183);
 }
 
 .swiper-slide:nth-child(2n) {
